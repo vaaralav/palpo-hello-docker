@@ -22,4 +22,4 @@ docker run -d --name logstash -p 2000:2000 logstash
 docker run -d --name mongo -p 91:27017 -p 92:28017 mongo mongod --rest --httpinterface
 ```
 
-Service should be available now at http://localhost:81 :)
+Service should be available now at <http://localhost:81> :)
