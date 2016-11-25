@@ -5,7 +5,7 @@ You'll need
 - Docker
 - ...
 
-## Build & run containers
+### Build & run containers
 
 Update your host machine IP address to `haproxy/haproxy.cfg`.
 
@@ -23,3 +23,17 @@ docker run -d --name mongo -p 91:27017 -p 92:28017 mongo mongod --rest --httpint
 ```
 
 Service should be available now at <http://localhost:81> :)
+
+## Notes & useful commands
+
+```
+docker logs <name>
+```
+
+```
+docker exec -ti <name> <command>
+```
+
+```
+docker inspect <name>
+```
